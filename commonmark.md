@@ -620,17 +620,51 @@ A title provides more textual detail about what the image shows or contains.
 
 ---
 
-![bg](https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700405825.jpg)
+### Example - Images
+
+```Markdown
+https://commonmark.org/help/images/favicon.png
+```
+
+By changing it to the following
+
+```Markdown
+![](https://commonmark.org/help/images/favicon.png)
+```
+
+![Markdoen](https://commonmark.org/help/images/favicon.png)
+
+Make this image appear – no need for alt text or title, leave those blank:
+
+---
+
+<!--
+https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700405825.jpg
+-->
+
+<style scoped>
+  h2
+  {
+    color: white
+  }
+
+  p
+  {
+    color: white
+  }
+</style>
+
+![bg](https://www.freeppt7.com/uploads/191106/1-191106101U2C4.jpg)
 
 ## Tables
 
 A table is an arrangement of data in rows and columns. To add a table in Markdown, use the vertical line | to separate each column, and use three or more dahses --- to create each column's header. A vertical line should also be added at either end of the row. The output will look exactly the same.
 
 ```Markdown
-|  |  |  |  |  |  |  |
+|   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
 ```
 
 Results in
@@ -644,7 +678,14 @@ Which is an empty table. It wraps around the content inside.
 
 ---
 
-![bg](https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700405825.jpg)
+<style scoped>
+  h3
+  {
+    color: white
+  }
+</style>
+
+![bg](https://www.freeppt7.com/uploads/191106/1-191106101U2C4.jpg)
 
 ```Markdown
 |S.No.|A|B|C|D|E|
@@ -683,6 +724,8 @@ You can align text in the columns to the left, right, or center by adding a colo
 You can’t use headings, blockquotes, lists, horizontal rules, images, or most HTML tags.
 
 ---
+
+### Example - Tables
 
 ![bg](https://www.freeppt7.com/uploads/191106/1-191106101U2C4.jpg)
 

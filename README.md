@@ -31,7 +31,7 @@ Open commonmark.html or commonmark.md
 
 commonmark.html is a presentation type display format web pages.
 
-### For Modular Equipment Private. Limited
+### For Modular Equipment Private Limited
 
 ![Logo](https://i.imgur.com/2cRvXIH.jpg)
 
