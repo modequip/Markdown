@@ -19,6 +19,13 @@ _paginate: false
 ![bg right contain](https://i.imgur.com/2cRvXIH.jpeg)
 -->
 
+<Style scoped>
+  h1
+  {
+    font-size: 56px
+  }
+</Style>
+
 ![bg right contain opacity:.25](https://i.imgur.com/sBC8NJd.jpeg)
 
 # Introduction to Markdown
@@ -626,7 +633,7 @@ A title provides more textual detail about what the image shows or contains.
 https://commonmark.org/help/images/favicon.png
 ```
 
-By changing it to the following
+Makeing this image appear – no need for alt text or title, leave those blank, by changing it to the following
 
 ```Markdown
 ![](https://commonmark.org/help/images/favicon.png)
@@ -634,7 +641,29 @@ By changing it to the following
 
 ![Markdoen](https://commonmark.org/help/images/favicon.png)
 
-Make this image appear – no need for alt text or title, leave those blank:
+---
+
+### Example - Images, referenced and alternate text
+
+Adding alt text of Logo and title of Creative Commons licensed to this image
+
+```Markdown
+![][1]
+
+[1]: https://commonmark.org/help/images/favicon.png
+```
+
+By changing this to
+
+```Markdown
+![Logo][1]
+
+[1]: https://commonmark.org/help/images/favicon.png "Creative Commons licensed"
+```
+
+![Logo][2]
+
+[2]: https://commonmark.org/help/images/favicon.png "Creative Commons licensed"
 
 ---
 
