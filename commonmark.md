@@ -667,6 +667,52 @@ By changing this to
 
 ---
 
+## CODE
+
+To create inline code, wrap with backticks `.
+
+To create a code block, either indent each line by 4 spaces, or place 3 backticks ``` on a line above and below the code block.
+
+```Markdown
+Inline `code` 
+```
+
+```Markdown
+    Or indent 4 spaces for the whole line.
+```
+
+&#96;&#96;&#96;
+Or use 3 backticks to create multi line code block.
+&#96;&#96;&#96;
+
+---
+
+- A code block or span displays every character inside exactly as it was typed.
+- Remember, one level of indentation in a code block equals 4 spaces or one tab.
+- An indented code block continues until it reaches a line that is not indented.
+3 backticks on a single line ``` marks the beginning and end of a code block.
+- This is sometimes called a “code fence” or 'code block'.
+
+---
+
+### Example - Inline Code
+
+Lets try to format only the math in this sentence as inline code in the following statement.
+
+When x = 3, that means x + 2 = 5.
+
+To do so we do something like this:
+
+```
+When 'x = 3', that means 'x + 2 = 5'
+```
+
+Resulting in somethinflike this:
+
+When 'x = 3', that means 'x + 2 = 5'
+
+---
+
 <!--
 https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700405825.jpg
 -->
