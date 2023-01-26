@@ -8,7 +8,7 @@ transition: fade
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 title: Introducton to markdown
 header: '**Modular** Equipment Private Limited'
-footer: Manan '**Sharma**'
+footer: Manan **Sharma**
 
 ---
 <!---
@@ -703,7 +703,7 @@ When x = 3, that means x + 2 = 5.
 
 To do so we do something like this:
 
-```
+```text
 When 'x = 3', that means 'x + 2 = 5'
 ```
 
@@ -713,6 +713,56 @@ When 'x = 3', that means 'x + 2 = 5'
 
 ---
 
+### Example - Indented Code Block
+
+```Markdown
+Jeff  15
+Sam   11
+Robin  6
+```
+
+Renders in a single line. Lets format the score table as an indented code block.
+
+    Jeff  15
+    Sam   11
+    Robin  6
+
+---
+
+### Example - Code Block
+
+A loop in JavaScript:
+
+```Javascript
+var i;
+for (i=0; i<5; i++) {
+  console.log(i); // You always console JS devs
+}
+```
+
+What numbers will this print?
+
+```bash
+0
+1
+2
+3
+4
+```
+
+---
+
+We can add an optional language identifier to enable syntax highlighting in your fenced code block. To do so, we can add the identifier tailing the opening ```. Like
+
+\```Java
+\```Javascript
+\```Ruby
+\```bash
+And many more.
+
+The code on the previous slide was done in the same manner.
+
+---
 <!--
 https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700405825.jpg
 -->
