@@ -639,7 +639,7 @@ Makeing this image appear – no need for alt text or title, leave those blank, 
 ![](https://commonmark.org/help/images/favicon.png)
 ```
 
-![Markdoen](https://commonmark.org/help/images/favicon.png)
+![Markdown](https://commonmark.org/help/images/favicon.png)
 
 ---
 
@@ -763,6 +763,38 @@ And many more.
 The code on the previous slide was done in the same manner.
 
 ---
+
+## Nested Lists
+
+To nest one list within another, indent each item in the sublist by four spaces. You can also nest other elements like paragraphs, blockquotes or code blocks.
+
+- Item
+    1. First Subitem
+    2. Second Subitem
+- Item
+  - Subitem
+  - Subitem
+- Item
+
+---
+
+The list on the previous slide was obtained by doing the formatting like the following:
+
+```Markdown
+* Item
+    1. First Subitem
+    2. Second Subitem
+* Item
+    - Subitem
+    - Subitem
+* Item
+```
+
+- You can mix ordered and unordered lists.
+- To nest a paragraph or blockquote, indent by either 4 spaces or one tab.
+- To nest a code block, indent by either 8 spaces or two tabs, or use a ``` code block.
+
+---
 <!--
 https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700405825.jpg
 -->
@@ -849,6 +881,13 @@ You can align text in the columns to the left, right, or center by adding a colo
 You can’t use headings, blockquotes, lists, horizontal rules, images, or most HTML tags.
 
 ---
+
+<style scoped>
+  h3
+  {
+    color: white
+  }
+</style>
 
 ### Example - Tables
 
