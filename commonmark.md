@@ -795,6 +795,162 @@ The list on the previous slide was obtained by doing the formatting like the fol
 - To nest a code block, indent by either 8 spaces or two tabs, or use a ``` code block.
 
 ---
+
+### Example - Unordered Nested List
+
+Lets convert the items under "Fruit" and "Dairy" into a sublist.
+
+Fruit
+Apple
+Orange
+Banana
+Dairy
+Milk
+Cheese
+Curd
+
+---
+
+#### Lets do something like this
+
+```Markdown
+* Fruit
+  * Apple
+  * Orange
+  * Banana
+* Dairy
+  * Milk
+  * Cheese
+  * Curd
+```
+
+---
+
+Which will result in such format
+
+- Fruit
+  - Apple
+  - Orange
+  - Banana
+- Dairy
+  - Milk
+  - Cheese
+  - Curd
+
+
+---
+
+### Example - Ordered Nested List
+
+Here are the winners of the given tournaments. Lets do an ordered list on the bases of rankings.
+
+```Markdown
++ World Cup 2014
+Germany
+Argentina
+Netherlands
++ Rugby World Cup 2015
+New Zealand
+Australia
+South Africa
+```
+
+---
+
+To do so, lets addeight spaces and numbering
+
+```Markdown
++ World Cup 2014
+  1. Germany
+  2. Argentina
+  3. Netherlands
++ Rugby World Cup 2015
+  1. New Zealand
+  2. Australia
+  3. South Africa
+```
+
+---
+
+### The final result is something like this
+
++ World Cup 2014
+  1. Germany
+  2. Argentina
+  3. Netherlands
++ Rugby World Cup 2015
+  1. New Zealand
+  2. Australia
+  3. South Africa
+
+---
+
+Observe the given recepie. The content under each numbered item isn’t nested properly, lets try to fix it
+
+```Markdown
+1. Ingredients
+
+- spaghetti
+- marinara sauce
+- salt
+
+2. Cooking
+
+Bring water to boil, add a pinch of salt and spaghetti. Cook until pasta is **tender**.
+
+3. Serve
+
+Drain the pasta on a plate. Add heated sauce. 
+> No man is lonely eating spaghetti; it requires so much attention.
+
+Bon appetit!
+```
+
+---
+
+To do so, the following  edits may do a good job.
+
+```Markdown
+1. Ingredients
+    - spaghetti
+    - marinara sauce
+    - salt
+
+2. Cooking
+   Bring water to boil, add a pinch of salt and spaghetti. Cook until pasta is **tender**.
+
+3. Serve
+   Drain the pasta on a plate. Add heated sauce. 
+   > No man is lonely eating spaghetti; it requires so much attention.
+
+   Bon appetit!
+```
+
+---
+
+<!-- _header: "" -->
+
+And the final result:
+
+1. Ingredients
+
+    - spaghetti
+    - marinara sauce
+    - salt
+
+2. Cooking
+
+   Bring water to boil, add a pinch of salt and spaghetti. Cook until pasta is **tender**.
+
+3. Serve
+
+   Drain the pasta on a plate. Add heated sauce. 
+
+   > No man is lonely eating spaghetti; it requires so much attention.
+
+   Bon appetit!
+
+---
 <!--
 https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700405825.jpg
 -->
