@@ -1060,3 +1060,12 @@ You can’t use headings, blockquotes, lists, horizontal rules, images, or most 
 990 |
 | CHANDNI   CHOWK | DL-1LDTRNF99054838 | 1S-DL-YP-CTC-DCTE-GCT1-CTC058 | TOWN HALL SUBSTATION | 990 |
 | CHANDNI   CHOWK | DL-1LDTREC9901415 | 1S-DL-YP-CTC-DCCK-0104-LHR051 | NEW HAUZ QUAZI(COMPLAIN CENTRE):ID | 990 |
+
+---
+
+<style scoped>
+
+</style>
+Congratulations!
+You’ve learned all the Markdown essentials.
+Go forth and write beautiful text …
