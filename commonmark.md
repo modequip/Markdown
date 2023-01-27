@@ -1066,6 +1066,9 @@ You can’t use headings, blockquotes, lists, horizontal rules, images, or most 
 <style scoped>
 
 </style>
-Congratulations!
-You’ve learned all the Markdown essentials.
-Go forth and write beautiful text …
+
+## Congratulations!
+
+### You’ve learned all the Markdown essentials.
+
+### Go forth and write beautiful text …
