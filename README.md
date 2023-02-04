@@ -15,7 +15,7 @@ This project is hodted on Github which graciously provides [pages feature](https
 
 ## Authors
 
-- [@AndroidMarv](https://github.com/AndroidMarv)
+- [@mananshr](https://github.com/mananshr)
 
 ## Run Locally
 
