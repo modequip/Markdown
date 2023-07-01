@@ -8,7 +8,7 @@ I am using [Marp][2] framework to make this in a slide format, the PDF is also g
 [2]:https://marp.app/
 
 ## Website
-This project is hodted on Github which graciously provides [pages feature](https://pages.github.com/). The [Marp][2] frameworrk can also generate an HTML render of the markdown file. The presentation style website is hosted [here](https://modequip.github.io/Markdown/).
+This project is hosted on Github which graciously provides [pages feature](https://pages.github.com/). The [Marp][2] frameworrk can also generate an HTML render of the markdown file. The presentation style website is hosted [here](https://modequip.github.io/Markdown/).
 ## Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)

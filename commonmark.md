@@ -837,7 +837,6 @@ Which will result in such format
   - Cheese
   - Curd
 
-
 ---
 
 ### Example - Ordered Nested List
@@ -860,11 +859,11 @@ South Africa
 To do so, lets addeight spaces and numbering
 
 ```Markdown
-+ World Cup 2014
+- World Cup 2014
   1. Germany
   2. Argentina
   3. Netherlands
-+ Rugby World Cup 2015
+- Rugby World Cup 2015
   1. New Zealand
   2. Australia
   3. South Africa
@@ -874,11 +873,11 @@ To do so, lets addeight spaces and numbering
 
 ### The final result is something like this
 
-+ World Cup 2014
+- World Cup 2014
   1. Germany
   2. Argentina
   3. Netherlands
-+ Rugby World Cup 2015
+- Rugby World Cup 2015
   1. New Zealand
   2. Australia
   3. South Africa
@@ -944,7 +943,7 @@ And the final result:
 
 3. Serve
 
-   Drain the pasta on a plate. Add heated sauce. 
+   Drain the pasta on a plate. Add heated sauce.
 
    > No man is lonely eating spaghetti; it requires so much attention.
 
@@ -1067,8 +1066,8 @@ You can’t use headings, blockquotes, lists, horizontal rules, images, or most 
 
 </style>
 
-## Congratulations!
+## Congratulations
 
-### You’ve learned all the Markdown essentials.
+### You’ve learned all the Markdown essentials
 
 ### Go forth and write beautiful text …
